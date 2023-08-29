@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: approval-process
+
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
